@@ -20,6 +20,7 @@ public class App
         segundos = calendario.get(Calendar.SECOND);
         
         ahora = hora + ":" + minutos + ":" + segundos + " (hh:mm:ss)";
+        System.out.println(ahora.length());
         return ahora;
 	}
 
